@@ -1,8 +1,10 @@
 import React from 'react'
 
-export default function Navbar() {
+const navbar = () => {
   return (
-    <div>Ini bagian navbar lol</div>
+    <div>Navbar</div>
   )
 }
+
+export default navbar
 
