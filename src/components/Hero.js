@@ -7,7 +7,7 @@ export default function Hero() {
                 {/*<img src="https://verihubs.com/wp-content/uploads/2022/12/corporate-identity-2.jpg" layout="fill" objectFit="cover" />*/}
 
                 <div className='absolute inset-0 bg-neutral-900/70 py-10 '>
-                    <diV className='mx-4 mt-16 text-center flex flex-col items-center'>
+                    <div className='mx-4 mt-16 text-center flex flex-col items-center'>
                         <h1 className='text-3xl font-extrabold uppercase tracking-wide text-white sm:text-4xl md:text-5xl lg:text-6xl'>Cari Lowongan <span className='text-green-600'>kerja</span>?</h1>
                         <span className='text-xl text-white sm:text-2xl'>Temukan pekerjaanmu selanjutnya </span>
                         <div className='mt-8'></div>
@@ -39,7 +39,7 @@ export default function Hero() {
                                 Cari Sekarang
                             </button>
                         </div>
-                    </diV>
+                    </div>
 
                 </div>
 

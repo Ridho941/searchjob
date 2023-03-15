@@ -5,7 +5,7 @@ function Kategori() {
         <div className='p-10'>
             <h1 className='font-bold text-2xl'>Kategori Lowongan</h1>
 
-            <div className='flex space-x-4'>
+            <div className='flex space-x-4 pt-3'>
                 <div class="relative p-4 bg-white rounded-lg overflow-hidden hover:shadow flex flex-col justify-center items-center">
                     <a className='text-center' href='/skategori'>
                     <div class="w-20 h-20 bg-gray-100 rounded-lg"></div>
@@ -61,6 +61,20 @@ function Kategori() {
                     <div class="w-20 h-20 bg-gray-100 rounded-lg"></div>
                     <h2 class="mt-2 text-gray-800 text-sm font-semibold line-clamp-1">
                         Category 8
+                    </h2>
+                </div>
+
+                <div class="relative p-4 bg-white rounded-lg overflow-hidden hover:shadow flex flex-col justify-center items-center">
+                    <div class="w-20 h-20 bg-gray-100 rounded-lg"></div>
+                    <h2 class="mt-2 text-gray-800 text-sm font-semibold line-clamp-1">
+                        Category 9
+                    </h2>
+                </div>
+
+                <div class="relative p-4 bg-white rounded-lg overflow-hidden hover:shadow flex flex-col justify-center items-center">
+                    <div class="w-20 h-20 bg-gray-100 rounded-lg"></div>
+                    <h2 class="mt-2 text-gray-800 text-sm font-semibold line-clamp-1">
+                        Category 10
                     </h2>
                 </div>
 

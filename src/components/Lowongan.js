@@ -5,9 +5,9 @@ function Lowongan() {
     <section>
       <div className="mb-4 px-10 flex items-center justify-between">
         <h2 className="text-2xl font-bold">Lowongan terdekat</h2>
-        <button className="border border-green-600  hover:scale-110  rounded-full py-2 px-6">
+        <a href='/llowongan' className="border border-green-600  hover:scale-110  rounded-full py-2 px-6">
           See All
-        </button>
+        </a>
       </div>
 
       <div className='py-10 px-10  ml-8 grid grid-cols-4  gap-5 lg:gap-12 sm:grid-cols-2 lg:grid-cols-4'>

@@ -13,10 +13,6 @@ const Navbar = () => {
             <li>
               <Link to="/" class="  hover:text-green-600" >Home</Link>
             </li>
-
-            <li>
-              <Link to='/fullpekerja' class=" hover:text-green-600">Full List</Link>
-            </li>
             <li>
               <Link to="/profile" class=" hover:text-green-600 ">Profile</Link>
             </li>

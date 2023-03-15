@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import Kategori from '../components/Kategori'
 import Lowongan from '../components/Lowongan'
@@ -11,6 +12,7 @@ function Home() {
         <Hero />
         <Kategori />
         <Lowongan />
+        <Footer />
     </div>
   )
 }

@@ -90,7 +90,7 @@ function Register() {
             </div>
 
           </div>
-          <button type='submit' className="w-full px-6 py-2 mt-4 text-white bg-blue-600 rounded-lg hover:bg-blue-900">Buat Akun</button>
+          <button type='submit' className="w-full px-6 py-2 mt-4 text-white bg-green-600 rounded-lg hover:bg-blue-900">Buat Akun</button>
           <p className="text-sm mt-4 font-light text-gray-500 dark:text-gray-400">
             Telah mempunyai akun? <a href="/login" className="font-medium text-primary-600 hover:underline text-blue-600 dark:text-primary-500">Masuk disini</a>
           </p>
