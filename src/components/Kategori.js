@@ -7,10 +7,12 @@ function Kategori() {
 
             <div className='flex space-x-4'>
                 <div class="relative p-4 bg-white rounded-lg overflow-hidden hover:shadow flex flex-col justify-center items-center">
+                    <a className='text-center' href='/skategori'>
                     <div class="w-20 h-20 bg-gray-100 rounded-lg"></div>
                     <h2 class="mt-2 text-gray-800 text-sm font-semibold line-clamp-1">
                         Category 1
                     </h2>
+                    </a>
                 </div>
 
                 <div class="relative p-4 bg-white rounded-lg overflow-hidden hover:shadow flex flex-col justify-center items-center">

@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
+import Llowongan from "./pages/Llowongan";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Resend from "./pages/Resend";
@@ -18,6 +19,7 @@ function App() {
           <Route path="/resend" component={Resend} />
           <Route path="/register" component={Register} />
           <Route path="/skategori" component={Skategori} />
+          <Route path="/llowongan" component={Llowongan} />
         </Switch>
       </BrowserRouter>
     </>
