@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="">
       <header className="container max-w-5xl mx-auto flex flex-row pt-12 items-center space-x-40" >
         {/*<img alt="icon-laslesvpn" src={IconLaslesVpn} className="w-36" />*/}
         <a href='/' class=" bg-gradient-to-r from-green-800 via-green-600 to-green-500 bg-clip-text align-middle text-3xl font-black tracking-widest text-transparent">SearchJob.ID</a>

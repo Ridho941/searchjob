@@ -41,7 +41,7 @@ export default function Footer() {
                         <h4 className='pb-4'>Sosial Media</h4>
                         <ul className='text-gray-500'>
                             <li className='pb-4'><a href="" className="text-center hover:text-blue-500 duration-300">Instagram</a></li>
-                            <li className='pb-4'><a href="" className="text-center hover:text-blue-500 duration-300">Github</a></li>
+                            <li className='pb-4'><a href="https://github.com/Ridho941/searchjob" className="text-center hover:text-blue-500 duration-300">Github</a></li>
                             <li className='pb-4'><a href="" className="text-center hover:text-blue-500 duration-300">Facebook</a></li>
 
                         </ul>

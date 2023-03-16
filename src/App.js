@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Detail from "./pages/Detail";
 import Formkerja from "./pages/Formkerja";
 import Formlowongan from "./pages/Formlowongan";
 import Home from "./pages/Home";
@@ -26,6 +27,7 @@ function App() {
           <Route path="/profile" component={Profile} />
           <Route path="/formkerja" component={Formkerja} />
           <Route path="/formlowongan" component={Formlowongan} />
+          <Route path="/detail" component={Detail} />
         </Switch>
       </BrowserRouter>
     </>
