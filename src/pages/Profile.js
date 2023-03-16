@@ -7,6 +7,7 @@ function Profile() {
     return (
         <div className='bg-green-600'>
             <div className='w-72 h-screen bg-green-600'>
+                
                 <a href='/' class=" bg-gradient-to-r  from-green-100 via-green-300 to-green-500 bg-clip-text align-middle text-3xl font-black tracking-widest text-transparent pb-4">SearchJob.ID</a>
                 <ul className='pt-6'>
                     <li className='flex  rounded-md p-2 cursor-pointer text-white items-center gap-x-4'><Link

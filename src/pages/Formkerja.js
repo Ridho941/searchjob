@@ -6,7 +6,7 @@ function Formkerja() {
   return (
     <>
       <Navbar />
-      <div className="container mx-auto py-14 px-80" >
+      <div className="container mx-auto py-14 px-80 bg-green-100" >
         <div class="mt-10 sm:mt-0">
           <div class="md:grid md:grid-cols-2 md:gap-6">
 
@@ -14,7 +14,7 @@ function Formkerja() {
               <form action="#" method="POST">
 
                 <div class="overflow-hidden shadow sm:rounded-md">
-                  <div class="bg-gray-50 px-10 p-10 sm:p-10">
+                  <div class="bg-white px-10 p-10 sm:p-10">
                     <h3 class="font-bold text-[25px] pb-10 text-center leading-6 text-gray-900">Form Pencari Kerja</h3>
                     <div class="grid grid-cols-3 gap-4 px-6">
 
@@ -73,7 +73,7 @@ function Formkerja() {
   </div>*/}
                     </div>
                   </div>
-                  <div class="bg-green-100 px-4 py-3 text-right sm:px-8 space-x-6">
+                  <div class="bg-green-200 px-4 py-3 text-right sm:px-8 space-x-6">
                     <Link to='/profile' className="bg-red-500 rounded-md text-white py-2 px-6  hover:scale-105 duration-300">Back</Link>
                     <button type="submit" class="inline-flex justify-center rounded-md bg-green-600 py-2 px-6 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Save</button>
 
