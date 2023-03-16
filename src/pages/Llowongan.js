@@ -8,7 +8,7 @@ function Llowongan() {
     <div>
       <Navbar />
 
-      <div className='p-10'>
+      <div className='p-10 bg-green-100'>
 
         <div>
           <form>
