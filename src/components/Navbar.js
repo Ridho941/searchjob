@@ -49,19 +49,19 @@ const Navbar = () => {
         < div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="mobile-menu-2" >
           <ul className="flex flex-col pl-48 p-2 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
-              <Link to="/" class="  hover:text-green-600 text-lg" >Home</Link>
+              <Link to="/" class="  hover:text-green-600 text-lg duration-150" >Home</Link>
             </li>
             <li>
-              <Link to="/" class="  hover:text-green-600 text-lg" >About</Link>
+              <Link to="/" class="  hover:text-green-600 text-lg duration-150" >About</Link>
             </li>
             <li>
-              <Link to="/llowongan" class=" hover:text-green-600 text-lg">lowongan</Link>
+              <Link to="/llowongan" class=" hover:text-green-600 text-lg duration-150">lowongan</Link>
             </li>
             <li>
-              <Link to="/favorite" class=" hover:text-green-600 text-lg">Fav</Link>
+              <Link to="/favorite" class=" hover:text-green-600 text-lg duration-150">Fav</Link>
             </li>
             <li>
-              <Link to="/chat" class="hover:text-green-600 text-lg">Chat</Link>
+              <Link to="/chat" class="hover:text-green-600 text-lg duration-150">Chat</Link>
             </li>
           </ul>
 

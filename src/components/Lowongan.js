@@ -5,7 +5,7 @@ function Lowongan() {
     <section>
       <div className="mb-4 px-10 flex items-center justify-between">
         <h2 className="text-2xl font-bold">Lowongan terdekat</h2>
-        <a href='/llowongan' className="border border-green-600  hover:scale-110  rounded-full py-2 px-6">
+        <a href='/llowongan' className="border border-green-600 hover:scale-110 duration-150  rounded-full py-2 px-6">
           See All
         </a>
       </div>
