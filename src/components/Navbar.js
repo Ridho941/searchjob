@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
 
-    <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
-      <div className="container px-10 pt-6 flex flex-wrap items-center justify-between mx-auto">
+    <nav className="bg-white border-gray-200 px-4 py-4 sm:px-4 rounded dark:bg-gray-900">
+      <div className="container px-10 pt-4 flex flex-wrap items-center justify-between mx-auto">
         <a href='/' class=" bg-gradient-to-r from-green-800 via-green-600 to-green-500 bg-clip-text align-middle text-4xl font-black tracking-widest text-transparent">SearchJob.ID</a>
         <div class="flex items-center md:order-2 space-x-6">
           <a href='/profile' class="flex  text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
