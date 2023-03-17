@@ -5,10 +5,10 @@ import Navbar from '../components/Navbar'
 
 function Llowongan() {
   return (
-    <div>
+    <div className='bg-green-100'>
       <Navbar />
 
-      <div className='p-10 bg-green-100'>
+      <div className='p-10 mt-8 '>
 
         <div>
           <form>

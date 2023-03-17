@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 
 function Formlowongan() {
   return (
-<>
+<div className='bg-green-200'>
       <Navbar />
-      <div className="container mx-auto py-14 px-80 bg-green-100" >
+      <div className="container mx-auto py-14 px-80 " >
         <div class="mt-10 sm:mt-0">
           <div class="md:grid md:grid-cols-2 md:gap-6">
 
@@ -79,7 +79,7 @@ function Formlowongan() {
           </div>
         </div>
       </div>
-    </>  )
+      </div>  )
 }
 
 export default Formlowongan

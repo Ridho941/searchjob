@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function Formkerja() {
   return (
-    <>
+    <div className='bg-green-200'>
       <Navbar />
       <div className="container mx-auto py-14 px-80 bg-green-100" >
         <div class="mt-10 sm:mt-0">
@@ -66,7 +66,7 @@ function Formkerja() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
