@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Chat from "./pages/Chat";
 import Detail from "./pages/Detail";
 import Formkerja from "./pages/Formkerja";
 import Formlowongan from "./pages/Formlowongan";
@@ -28,6 +29,7 @@ function App() {
           <Route path="/formkerja" component={Formkerja} />
           <Route path="/formlowongan" component={Formlowongan} />
           <Route path="/detail" component={Detail} />
+          <Route path="/chat" component={Chat} />
         </Switch>
       </BrowserRouter>
     </>
