@@ -113,9 +113,73 @@ function Profile() {
 
                         </div>
                     </div>
-
-
+                    
                 </div>
+                <section className=' col-span-4 px-20 relative '>
+                        <div className='pl-0  transition-all gap-8 py-16  border-gray-800'>
+                            <div className='p-10 bg-white rounded-xl'>
+                                <div className='flex items-center gap-4 mt-2'>
+                                    <img
+                                        src="https://img.freepik.com/free-photo/young-asian-teenage-girl-surprised-excited-isolated-pink-background_74952-2590.jpg?w=900&t=st=1677461617~exp=1677462217~hmac=751528225d96d149accb3e39885833ba389a438d75b7ff66edb5e54ee7f400c5"
+                                        className="w-28 h-28 object-cover rounded-full"
+                                    />
+                                    <div>
+                                        <h2 className='text-lg font-semibold mb-2'>lala tau</h2>
+                                        <span className='text-md text-gray-500'>aksdfjew</span>
+                                    </div>
+                                    <a href="#" className='py-2 px-4 rounded bg-green-500 flex items-center gap-4 text-white hover:bg-green-600'>
+                                        Edit Profile
+                                    </a>
+                                </div>
+                                <p className='text-gray-500 flex-items-center mt-8 mb-10 '>
+                                    <div>
+                                        <tr className=''>
+                                            <span className='w-1/5  text-right pr-20 space-y-6 align-top'>Bio</span>
+                                            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                                            </td>
+
+                                        </tr>
+                                        <tr >
+                                            <span className='w-1/5 text-right pr-20 space-y-8 align-top'>About Me</span>
+                                            <td className="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                                                malesuada ex vel vehicula varius. Nam egestas nisi ac ipsum
+                                                commodo, a congue odio efficitur.</td>
+
+                                        </tr>
+                                        <tr>
+                                            <span className='w-1/5 text-right pr-10 space-y-3 align-top'>Skills</span>
+                                            <td>
+                                                <div className='flex-items-center'>
+                                                    <li>ReactJS</li>
+                                                    <li>NodeJS</li>
+                                                    <li>Tailwind CSS</li>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <span className='w-1/5 text-right pr-10 space-y-3 align-top mb-2'>Email</span>
+                                            <td>
+                                                <div className="flex items-center">
+                                                    <span className="flex-1">johanna.stevens@gmail.com</span>
+                                                    <button className="bg-gray-100 border border-gray-200 py-1 px-3 rounded-md text-xs font-normal">
+                                                        Pimary
+                                                    </button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </div>
+
+                                </p>
+                                <div>
+                                    <div className='mt-8'>
+                                        <h2 className='pb-1 border-b-4 border-tranparent text-sm text-gray-500 mb-2'>My Activity</h2>
+                                        <span className='text-md text-gray-500'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
             </div>
         </div>
         /* <div className='bg-green-600'>
