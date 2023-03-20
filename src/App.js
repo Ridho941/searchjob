@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import cors from "cors";
 import Chat from "./pages/Chat";
 import Detail from "./pages/Detail";
 import Formkerja from "./pages/Formkerja";

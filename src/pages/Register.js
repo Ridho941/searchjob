@@ -17,16 +17,16 @@ function Register() {
 
     const formData = new FormData();
 
-    formData.append('nama', nama);
+    formData.append('name', nama);
     formData.append('phone_number', phone_number);
     formData.append('password', password);
     formData.append('email', email);
-    formData.append('photo', file);
+    formData.append('image', file);
 
-    await axios.post('http://103.179.86.77:4567/api/registermitra', formData)
+    await axios.post('http://103.179.86.77:3030/register', formData)
       .then((response) => {
-        sessionStorage.setItem('token', response.data.token);
-        history.push('/verif');
+        // sessionStorage.setItem('token', response.data.token);
+        history.push('/login');
         console.log(response);
       }).catch((error) => {
         console.log(error.response.data)
